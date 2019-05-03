@@ -1,4 +1,4 @@
-class CustomFooterHookViewListener < Redmine::Hook::ViewListener
+class RedmineCustomFooterHookViewListener < Redmine::Hook::ViewListener
   def view_layouts_base_html_head(context={})
     footer_content = 'some_footer_content'
     [
