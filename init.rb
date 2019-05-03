@@ -1,5 +1,5 @@
-Redmine::Plugin.register :custom_footer do
-  name 'Custom Footer plugin'
+Redmine::Plugin.register :redmine_custom_footer do
+  name 'Redmine Custom Footer plugin'
   author 'Author name'
   description 'This is a plugin for Redmine'
   version '0.0.1'
